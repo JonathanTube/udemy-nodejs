@@ -1,0 +1,16 @@
+{
+  "name": "6.using-npm",
+  "version": "1.0.0",
+  "description": "practice npm using",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
