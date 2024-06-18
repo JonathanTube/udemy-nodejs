@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+    p #{message}
+
+    ul
+        each item in [1,2,3,4,5,6,7,8,9,10,11]
+            li item-#{item}
+        endforeach
+
+    #message
+        if message.length > 5
+            <p>long message</p>
+
+block footer
+    <p>This is footer</p>
