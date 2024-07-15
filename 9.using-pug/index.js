@@ -8,7 +8,7 @@ app.set("view engine", "pug")
 app.get("/", (req, res) => {
   res.render("index", {
     title: "Hello World",
-    message: "This is my first pug page"
+    message: "This is my first pug page",
   })
 })
 
